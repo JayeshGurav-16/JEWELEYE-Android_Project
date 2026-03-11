@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+
+    <!-- Apply rounded corners only to the bottom-left and bottom-right -->
+    <corners
+        android:bottomLeftRadius="25dp"
+        android:bottomRightRadius="25dp"
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        />
+
+    <!-- Stroke for defining a border for the view -->
+    <stroke
+        android:width="0.9dp"
+        android:color="@color/black" />
+
+    <!-- Size of the shape -->
+    <size
+        android:height="40dp"
+        android:width="40dp" />
+</shape>

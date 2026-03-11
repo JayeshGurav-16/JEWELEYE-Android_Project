@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rectangle -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/blurish" />
+        </shape>
+    </item>
+
+    <!-- Curve at the bottom middle -->
+    <item android:top="70dp"> <!-- Adjust the top offset to control the curve position -->
+        <shape android:shape="oval">
+            <solid android:color="@color/blurish" />
+            <size
+                android:width="200dp"
+            android:height="50dp" /> <!-- Adjust the height to control the curve depth -->
+        </shape>
+    </item>
+</layer-list>

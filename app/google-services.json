@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "241477482328",
+    "firebase_url": "https://jewlleye-admin-2e1e9-default-rtdb.firebaseio.com",
+    "project_id": "jewlleye-admin-2e1e9",
+    "storage_bucket": "jewlleye-admin-2e1e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241477482328:android:3050d1a793aa65a576d72d",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgLABOMl5XCBykHMDeB6BOn_WY4vkCPtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241477482328:android:b202870612f4fcba76d72d",
+        "android_client_info": {
+          "package_name": "com.jewlleye.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgLABOMl5XCBykHMDeB6BOn_WY4vkCPtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

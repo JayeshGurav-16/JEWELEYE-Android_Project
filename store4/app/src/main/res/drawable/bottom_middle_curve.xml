@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+
+    <!-- Define a path for the shape -->
+    <path
+        android:fillColor="@color/blurish"
+    android:pathData="M0,0 L200,0 L200,80 Q100,120 0,80 Z" />
+</vector>

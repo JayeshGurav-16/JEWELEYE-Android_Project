@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">store4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product">Product</string>
+    <string name="home">Home</string>
+    <string name="try_on">Try On</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="hello_profile_fragment" />
+    <string name="hello_home_fragment" />
+    <string name="hello_Tryon_fragment" />
+    <string name="hello_Product_fragment" />
+    <string name="hello_cart_fragment" />
+    <string name="jewel" />
+    <string name="Like" />
+    <string name="Notification">Notification</string>
+    <string name="Setting">Setting</string>
+    <string name="hello_tryon">hello tryon</string>
+</resources>

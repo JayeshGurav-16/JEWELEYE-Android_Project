@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FloralWhite"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:gravity="start"
+        android:orientation="vertical">
+
+
+        <!-- AppBarLayout with Curve in Bottom Middle -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:background="@drawable/bottom_middle_curve"
+            app:elevation="0dp"
+            >
+
+            <!-- Toolbar -->
+
+            <!-- SearchView -->
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/transparent"
+                app:logo="@drawable/baseline_account_circle_24"
+                app:menu="@menu/top_nav_bar"
+                app:title="  JewelEye"
+                app:titleTextColor="@color/black"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/search_blog"
+                android:backgroundTint="@color/white"
+                android:focusable="false"
+                app:iconifiedByDefault="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:queryHint="Search"
+                app:searchHintIcon="@null"
+                app:searchIcon="@mipmap/ic_search_foreground" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- FrameLayout for Fragments -->
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="408dp"
+            android:layout_height="544dp"
+            android:layout_below="@+id/appBarLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-3dp"
+            android:layout_marginBottom="-38dp">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="15dp"
+        app:fabCradleVerticalOffset="9dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:backgroundTint="@color/blurish">
+
+        <!-- BottomNavigationView -->
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottomNavigationView"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/transparent"
+                app:menu="@menu/bottom_nav_menu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/try_on"
+        android:src="@drawable/try_on"
+        app:layout_anchor="@id/bottomAppBar"
+        app:maxImageSize="35dp" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
